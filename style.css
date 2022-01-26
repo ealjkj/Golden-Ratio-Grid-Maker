@@ -1,0 +1,44 @@
+* {
+    background-color: #E6E8E6;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body {
+    text-align: center;
+}
+
+label{ 
+    font-size: 24px;
+    margin-left: 20px;
+}
+input {
+    padding-left: 10px;
+    height: 30px;
+    width:100px;
+    font-size: 24px;
+    margin-left: 50px;
+}
+.title {
+    font-size: 7vh;
+    color: #086375;
+    font-weight: bold;
+}
+button {
+    margin:20px;
+    height: 80px;
+    width: 200px;
+    font-size: 24px;
+    border-radius: 10px;
+    background-color: #086375;
+    font-weight: bold;
+    border-style: none;
+    color: white;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+}
+button:hover {
+    opacity: 50%;
+}
+.mygrid {
+    place-content: center;
+    display: flex;
+}
